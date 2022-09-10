@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Milik';
+    src: url('/session9/font/Milik.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('/session9/font/Gilroy-Medium.ttf') format('truetype');
+}
+
+:root {
+    --body: hsl(222, 47%, 11%);
+    --dark-blue: hsl(232, 59%, 10%);
+    --text-blue: hsl(233, 24%, 19%);
+    --white-color: hsl(0, 0%, 100%);
+    --btn-padding: 0.9375rem 1.875rem;
+    --border-radius: 0.625rem;
+    --font-header: "Gilroy-Medium", sans-serif;
+}
+
+    *, *::after, 
+    *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .book{
+       position: relative;
+       margin-left: 10rem;
+       margin-top: 15rem;
+       width: 65rem;
+       height: 25rem;
+        border-radius: var(--border-radius);
+       -webkit-border-radius: var(--border-radius);
+       -moz-border-radius: var(--border-radius);
+       -ms-border-radius: var(--border-radius);
+       -o-border-radius: var(--border-radius);
+       background-color: hsl(0, 0%, 0%);
+       z-index: 100;
+       overflow: hidden;
+    }
+
+    .write-up{
+        position: absolute;
+        top: 70px;
+        left: 4rem;
+        line-height: 1.5;
+    }
+
+    p{
+        color: hsl(0, 0%, 100%);
+    }
+
+    .text-1, .text-3{
+        font-size: xx-large;
+        font-weight: 600;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .text-2{
+        color: hsl(50, 100%, 50%);
+        font-size: xx-large
+    }
+
+    .girl-book{
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+        width: auto;
+        height: 24rem;
+    }
+
+    .btn{
+        position: absolute;
+        bottom: 50px;
+        left: 60px;
+        color: hsl(0, 0%, 0%);
+        background-color: hsl(52, 100%, 86%);
+        border: none;
+        outline: none;
+        padding: 20px 55px;
+        text-decoration: none;
+        border-radius: var(--border-radius);
+        -webkit-border-radius: var(--border-radius);
+        -moz-border-radius: var(--border-radius);
+        -ms-border-radius: var(--border-radius);
+        -o-border-radius: var(--border-radius);
+}
+
+.btn:hover{
+    background-color: hsla(240, 93%, 49%, 0.912);
+    color: var(--white-color);
+    transition: all .8s .2s;
+    -webkit-transition: all .8s .2s;
+    -moz-transition: all .8s .2s;
+    -ms-transition: all .8s .2s;
+    -o-transition: all .8s .2s;
+}
+
+.circle{
+    position: absolute;
+    top: -120px;
+    right: -50px;
+    width: 20rem;
+    height: 20rem;
+    background-color: hsl(50, 100%, 50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -999;
+}
+
+.circle-2{
+    position: absolute;
+    bottom: -160px;
+    right: 250px;
+    width:  15rem;
+    height: 15rem;
+    background-color: hsl(197, 100%, 30%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -999;
+}
+  
